@@ -35,6 +35,27 @@ r = praw.Reddit(user_agent='DemApollus',
 
 subreddit = r.subreddit('technews')
 
-news = [*subreddit.top(limit=None)] # top posts all time
+news = [*subreddit.top(limit=20)] # first 20 posts only
 
 print(len(news))
+
+# news0 = news[0]
+
+# # pprint(vars(news0)) 
+# print(news0.title) # headline
+# print(news0.score) # upvotes
+# print(news0.created) # UNIX timestamps 
+# print(dt.datetime.fromtimestamp(news0.created)) # date and time
+# print(news0.num_comments) # no. of comments
+# print(news0.upvote_ratio) # upvote / total votes
+# print(news0.total_awards_received) # no. of awards given
+
+# create lists of the information from each news
+title = [news.title for news in news]
+
+news = pd.DataFrame({
+    "title": title,
+})
+news.head()
+
+print("Full run thru: Yes")
