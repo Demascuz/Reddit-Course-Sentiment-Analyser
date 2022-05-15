@@ -59,3 +59,7 @@ news = pd.DataFrame({
 news.head()
 
 print("Full run thru: Yes")
+
+all = r.subreddit("UBC")
+for i in all.search("CPSC 110", limit=5):
+    print (i.title)
