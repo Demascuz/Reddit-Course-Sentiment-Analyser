@@ -27,6 +27,3 @@ For the BERT analysis and the final average,
 * 1.0 - 2.4 means BAD
 * 2.5 - 3.9 means NEUTRAL or OKAY
 * 4.0 - 5.0 means GOOD
-
-=======
->>>>>>> a67e691adac6dcb4cb023be268d483cc71c6231d
