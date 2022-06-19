@@ -23,9 +23,9 @@ BERT works well with simple writings with a singular topic. Not so much with lon
 
 **HOW TO INTERPRET DATA:**
     
-For the BERT analysis and the final average,\
-* 1.0 - 2.4 means BAD\
-* 2.5 - 3.9 means NEUTRAL or OKAY\
+For the BERT analysis and the final average,
+* 1.0 - 2.4 means BAD
+* 2.5 - 3.9 means NEUTRAL or OKAY
 * 4.0 - 5.0 means GOOD
 
 =======
