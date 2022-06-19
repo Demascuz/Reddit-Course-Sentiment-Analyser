@@ -1,6 +1,7 @@
 # Reddit-Course-Sentiment-Analyser
 
 Reddit course sentiment analyser for UBC students (for now).
+<<<<<<< HEAD
 
 GOAL: 
     To analyse the sentiment of a given course in UBC. Done by analysing the top level comments on reddit posts regarding the specific course.
@@ -25,3 +26,5 @@ HOW TO INTERPRET DATA:
         2.5 - 3.9 means NEUTRAL or OKAY
         4.0 - 5.0 means GOOD
 
+=======
+>>>>>>> a67e691adac6dcb4cb023be268d483cc71c6231d
